@@ -1,0 +1,1 @@
+print(dfa.read_input('0001'))

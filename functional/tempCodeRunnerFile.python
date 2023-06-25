@@ -1,0 +1,4 @@
+n=int(input())
+a=''
+a=a+str([lambda x: x*10 for x in range(n)])
+print(a)
