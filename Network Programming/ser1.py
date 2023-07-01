@@ -5,7 +5,7 @@ port = 5555
 s.bind((host, port)) 
 s.listen(5) 
 while True: 
-    c, addr = s.accept() 
+    c, addr = s.accept() #accepting the connection
     print('Got connection from', addr) 
     c.send(b'Thank you for connecting') 
 c.close()
