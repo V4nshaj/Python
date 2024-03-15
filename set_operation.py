@@ -6,3 +6,7 @@ print(seta & setb)#intersection of set
 print(seta - setb)
 print(setb - seta)
 print(setb ^ seta)
+
+seta.add(10)
+seta.remove(20)#does cause error
+seta.discard(20)#doesnt show error
