@@ -2,9 +2,9 @@
 import socket
 
 c=socket.socket()
-host=socket.gethostname()#hostname
+host=socket.gethostname()
 port=9999
-c.connect((host,port))#connecting to the server
+c.connect((host,port))
 name=input("Enter your name: ")
 c.send(bytes(name,'utf-8'))
 
