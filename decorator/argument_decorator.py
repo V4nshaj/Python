@@ -1,7 +1,7 @@
 def decorator(func):
-    def wrapper():
+    def wrapper(*args, **kwargs):
         print('Wrapper Upside')
-        func()
+        func(*args, **kwargs)
         print('Wrapper Downside')
     return wrapper
 
@@ -11,4 +11,10 @@ def chocolate():
     # print('wrapper')#add this
     #change the behaaviour of the function in middle of process 
 
+@decorator
+def cake(name):
+    print('cake ' +name)
+
+
 chocolate()
+cake('apple')
