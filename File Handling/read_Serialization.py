@@ -1,6 +1,5 @@
 import json
 import os #os imported to check if the file path already exist
-user_list = []
 def read_user_data():
         
     if not os.path.exists("user_data.json"):

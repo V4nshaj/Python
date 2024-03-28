@@ -1,7 +1,7 @@
 import json
 import os #os imported to check if the file path already exist
-user_list = []
 def save_user_data():
+    user_list = []
 
     while True:
         name = input("Enter Name(or 'quit' to exit the program): ")
