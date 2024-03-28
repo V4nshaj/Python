@@ -7,7 +7,7 @@ data = {
     "age": 30,
     "city": "New York"
 }
-json_Data=json.dumps(data)#dump converts the data into json string
+json_Data=json.dumps(data)#dumps converts the data into json string
 print(type(data))
 print(type(json_Data))
 print(json_Data)
